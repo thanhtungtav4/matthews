@@ -533,6 +533,7 @@
 .detail-news .content-detail-text{
     text-align: justify;
     border-bottom: 1px solid slategray;
+    padding: 30px 0;
 }
 .mt-detail-product .m-product-detail_buynow a:hover{
     background-color: black;
@@ -544,4 +545,101 @@
 }
 .mt-bg-cate .m-product-detail_number{
     display: flex;
+}
+.notification-event{
+    background-color: #fcc818;
+    text-align: center;
+}
+.notification-event-box .notification-event-text p{
+    margin-bottom: 0px;
+    padding: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.notification-event-box .notification-event-text a{
+    color: #000;
+    transition: 0.3s ease-in-out;
+    background-color: #ffff;
+    padding: 6px 12px;
+    border-radius: 7px;
+}
+.notification-event-box .notification-event-text a:hover{
+    color: #ffff;
+    background-color: #000;
+}
+.event-box-count-down{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 30px 0;
+}
+.event-box-count-down .title-h4-event h4{
+    color: #fcc818;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: underline;
+
+}
+.event-box-count-down .event-box-form .box-form{
+    border: 23px solid #fcc818;
+}
+.event-box-count-down .event-box-form .box-form form{
+    padding: 25px;
+    text-align: left;
+}
+.event-box-count-down .img-box-event{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.event-box-count-down .form-title{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.event-box-count-down .btn-event{
+    background-color: #fcc818;
+    width: 100%;
+    border: unset;
+    padding: 6px;
+}
+.event-box-count-down .btn-event:hover{
+    background-color: #000000;
+   color: #FFFFFF;
+}
+.event-box-count-down #clockdiv{
+    display: flex;
+    text-align: center;
+    margin: 30px;
+}
+.event-box-count-down .time_down{
+    margin: 0 auto;
+}
+.event-box-count-down .hours{
+     padding: 15px;
+     background-color: #fcc818;
+     margin: 15px;
+     text-transform: uppercase;
+     font-size: 25px;
+     font-weight: 500;
+ }
+.event-box-count-down .minutes{
+    padding: 15px;
+    background-color: #fcc818;
+    margin: 15px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+}
+.event-box-count-down .seconds{
+    padding: 15px;
+    background-color: #fcc818;
+    margin: 15px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+}
+.event-box-count-down .smalltext{
+    padding-top: 15px;
 }
