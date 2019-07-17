@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    src: url('../css/fa-solid-900.woff2') format('woff2');
+}
 .mt-cate{
 	position: inherit;
 	z-index: 2;
@@ -110,7 +114,18 @@
 	display: inline-flex;
 	color: #000;
 	width: 100%;
+    position: relative;
 }
+
+.m-cate-list_title:before { 
+    content: '';
+    position: absolute;
+    bottom: 30%;
+    border-bottom: 1px #fcc819 solid;
+    width: 100%;
+    z-index: 0;
+}
+
 .m-cate-list_title-left{
 	font-size: 18px;
 	font-weight: 600;
@@ -123,6 +138,8 @@
 	border-left: 3px solid #fcc818;
 	background: #fff;
     padding: 0px 20px 0px 5px;
+    position: relative;
+    z-index: 1
 }
 
 .m-cate-list_title-right{
@@ -137,6 +154,15 @@
     text-decoration: underline;
     background: #fff;
     padding-left: 10px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Font Awesome 5 Free';
+   
+}
+.m-cate-list_title-right a::after{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 500;
+    content: "\f101"
 }
 .m-cate-list_title-right a:hover,
 .m-cate-list_title-left a:hover{
@@ -248,7 +274,7 @@
     border-top: unset;
 }
 .mt-detail-product .form-group input{
-   height: 40px;	
+   height: 40px;
    max-width: 100px;
 }
 .mt-detail-product .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up:active{
@@ -540,7 +566,7 @@
 }
 .detail-news .fa-twitter-square {
     color: #007bff;
-    
+
 }
 .detail-news .content-detail-text{
     text-align: justify;
@@ -657,4 +683,51 @@
 }
 .case-study-event .content-detail-text{
     border-bottom: unset;
+}
+.events-cat{
+     background-color: #FFFFFF;
+}
+.events-cat .m-box a{
+    color: #000;
+    transition: 0.3s ease-in-out;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.events-cat .m-box a:hover{
+    color: #fcc818;
+}
+.events-cat .card-body{
+    padding: 0.5rem;
+}
+.events-cat .m-box .m-title-post{
+    margin-bottom: 2px;
+}
+.events-cat .m-box  .news-date{
+     color: #909090;
+}
+.events-cat .m-box  .news-date p{
+   margin-bottom: 7px;
+}
+.events-cat .m-box .m-title-post{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.detail-text-product .m-cate-list_title-left a {
+    border-left: unset;
+    background: #fff;
+    padding: 0px 20px 0px 0px;
+    position: relative;
+    z-index: 1;
+}
+.detail-text-product .m-cate-list_title:before {
+    content: '';
+    position: absolute;
+    bottom: 30%;
+    border-bottom: 1px #cccccc solid;
+    width: 100%;
+    z-index: 0;
 }
