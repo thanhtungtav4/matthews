@@ -393,6 +393,18 @@
 .cateory-list-child .col-md-9 .col-md-4{
 	padding-top: 15px;
 }
+.cateory-list-child .mt-title a{
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 2;
+    height: 75px;
+    display: block;
+    -webkit-box-orient: vertical;
+
+}
 #main-contact{
     background-color: #ffff;
 }
@@ -571,13 +583,13 @@
 .event-box-count-down{
     background-color: #FFFFFF;
     text-align: center;
-    padding: 30px 0;
+    padding-bottom: 30px;
 }
 .event-box-count-down .title-h4-event h4{
     color: #fcc818;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 22px;
     text-decoration: underline;
 
 }
