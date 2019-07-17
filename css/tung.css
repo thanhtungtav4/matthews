@@ -655,3 +655,6 @@
 .event-box-count-down .smalltext{
     padding-top: 15px;
 }
+.case-study-event .content-detail-text{
+    border-bottom: unset;
+}
