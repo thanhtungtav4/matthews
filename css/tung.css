@@ -937,9 +937,38 @@
     background-color: black;
     color: #ffff;
 }
+.mt-card .btn-apply{
+    background-color: #fcc818;
+    border: unset;
+    color: #FFFFFF;
+    padding: 0 15px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.mt-card .col-md-4 .input-group{
+    padding: 0 15px;
+    margin-bottom: 16px;
+}
 .mt-card .btn-payment_box_down{
     padding: 15px;
     width: 100%;
+}
+.mt-card .code_discount{
+    color: red;
+    padding: 0 15px;
+}
+.mt-card .note-card_code{
+    padding: 0 15px;
+    color: #c1c1c1;
+    font-size: 15px;
+}
+.mt-card .note-card .form-group{
+    width: 100%
+}
+.mt-card .delivery_address .address_title{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 30px;
 }
 @media screen and (max-width: 768px){
     .upcoming-events #post .btn{
