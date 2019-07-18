@@ -731,3 +731,35 @@
     width: 100%;
     z-index: 0;
 }
+.events-cat .m-cate-list_title:before {
+    border-bottom: 1px #ccc9c2 solid;
+}
+.events-cat .m-cate-list_title-right a{
+    color: #fcc818;
+}
+.Upcoming-events #clockdiv{
+    display: inline-flex;
+    color: black;
+}
+.Upcoming-events #clockdiv .smalltext{
+    color: #cccccc;
+    text-align: center;
+}
+.Upcoming-events #clockdiv .hours{
+    background-color: #cccccc;
+    padding: 7px 10px;
+    margin: 10px;
+}
+.Upcoming-events #clockdiv .minutes{
+    background-color: #cccccc;
+    padding: 7px 10px;
+    margin: 10px;
+}
+.Upcoming-events #clockdiv .seconds{
+    background-color: #cccccc;
+    padding: 7px 10px;
+    margin: 10px;
+}
+.Upcoming-events .time-event{
+    text-align: right;
+}
