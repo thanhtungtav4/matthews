@@ -168,7 +168,9 @@
 .m-cate-list_title-left a:hover{
 	color: #fcc818
 }
-.m-cate-list{padding:40px 0;}
+.m-cate-list{
+    padding: 40px 0 18px 0;
+}
 .m-cate-hr{
 	margin: 0;
     margin-top: -10px;
@@ -499,11 +501,12 @@
 }
 .cate-news .m-title-post{
     font-weight: 500;
-    line-height: 1rem;
     font-size: 1rem;
     color: black;
     text-align: justify;
-    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .cate-news .m-title-post:hover{
    color: #fcc818;
@@ -829,6 +832,97 @@
     padding: 7px 10px;
     margin: 10px;
 }
+.mt-footer-2 i{
+    color: #f7c30d;
+    margin: 0 8px;
+}
+.mt-footer-2 .child_border{
+    margin-top: 17px;
+}
+.mt-card{
+    background-color: #ffff;
+}
+.mt-card .mt-card-title strong{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 20px;
+}
+.mt-card .box-check-out{
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    font-weight: 500;
+}
+.title-card-box{padding-top: 40px;
+}
+.mt-card .p-2 img{
+    text-align: center;
+}
+
+.mt-card .count-product-card{
+    color: red;
+}
+.mt-card .col-md-8 .table .tr-table{
+    background-color: #fff5d3;
+}
+.mt-card .col-md-8 .table thead th {
+    vertical-align: unset;
+    border-bottom: unset;
+    border-top: unset;
+}
+.mt-card .col-md-8 .table tbody{
+    border-bottom: 1px solid rgba(144, 143, 143, 0.33);
+    border-left: 1px solid rgba(144, 143, 143, 0.33);
+    border-right: 1px solid rgba(144, 143, 143, 0.33);
+}
+.mt-card .col-md-8 .table thead th .p-2 img{
+    border: 0.9px rgba(144, 143, 143, 0.33);
+}
+.mt-card .col-md-8 .table .input-group{
+    max-width: 95px;
+}
+.mt-card .col-md-8 .table input{
+    height: 40px;
+}
+.mt-card .mt-close a{
+    color: #333333;
+}
+.mt-card .price-color-red{
+    color: red;
+    font-weight: 500;
+    text-align: right;
+}
+.mt-card .col-md-8 .table tr{
+    border-top: 1px solid #dee2e6;
+}
+.mt-card .title-oder-info{
+    font-size: 18px;
+    font-weight: 500;
+}
+.mt-card .note-card{
+    padding: 0 15px;
+}
+.mt-card .btn-payment_box{
+    padding: 15px;
+    width: 100%;
+}
+.mt-card .btn-payment_box button{
+    width: 100%;
+    padding: 10px;
+    background-color: #ffba10;
+    color: #FFFFFF;
+    font-weight: 500;
+    border: unset;
+}
+.mt-card .btn-payment_box button:hover{
+    background-color: black;
+    color: #ffff;
+}
+.box-btn-send .btn-send button:hover{
+    background-color: black;
+    color: #ffff;
+}
+
 @media screen and (max-width: 768px){
     .upcoming-events #post .btn{
         position: relative;
