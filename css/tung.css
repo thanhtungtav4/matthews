@@ -1094,6 +1094,29 @@
     font-weight: 500;
 
 }
+.mt-oder-success{
+    text-align: center;
+    padding: 50px;
+    background-color: #ffff;
+    font-weight: 600;
+    line-height: 28px;
+}
+.mt-oder-success a{
+    color: #ffba10;
+    text-decoration: underline;
+}
+.mt-oder-success .tittle-success-oder h1{
+    color: #ffba10;
+    font-weight: 700;
+    margin: 20px;
+}
+.mt-oder-success .btn_success_oder button{
+    background-color: #ffba10;
+    color: #FFFFFF;
+    padding: 7px 40px;
+    border: unset;
+    margin: 30px;
+}
 @media screen and (max-width: 768px){
     .upcoming-events #post .btn{
         position: relative;
