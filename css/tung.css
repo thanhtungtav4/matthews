@@ -922,7 +922,25 @@
     background-color: black;
     color: #ffff;
 }
-
+.btn-payment_box_down{
+    padding: 15px;
+}
+.mt-card .btn-payment_box_down button{
+    width: 100%;
+    padding: 10px;
+    background-color: #707070;
+    color: #FFFFFF;
+    font-weight: 500;
+    border: unset;
+}
+.mt-card .btn-payment_box_down button:hover{
+    background-color: black;
+    color: #ffff;
+}
+.mt-card .btn-payment_box_down{
+    padding: 15px;
+    width: 100%;
+}
 @media screen and (max-width: 768px){
     .upcoming-events #post .btn{
         position: relative;
