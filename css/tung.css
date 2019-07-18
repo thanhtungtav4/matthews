@@ -737,29 +737,107 @@
 .events-cat .m-cate-list_title-right a{
     color: #fcc818;
 }
-.Upcoming-events #clockdiv{
+.upcoming-events #clockdiv{
     display: inline-flex;
     color: black;
 }
-.Upcoming-events #clockdiv .smalltext{
+.upcoming-events #clockdiv .smalltext{
     color: #cccccc;
     text-align: center;
 }
-.Upcoming-events #clockdiv .hours{
+.upcoming-events #clockdiv .hours{
     background-color: #cccccc;
     padding: 7px 10px;
     margin: 10px;
 }
-.Upcoming-events #clockdiv .minutes{
+.upcoming-events #clockdiv .minutes{
     background-color: #cccccc;
     padding: 7px 10px;
     margin: 10px;
 }
-.Upcoming-events #clockdiv .seconds{
+.upcoming-events #clockdiv .seconds{
     background-color: #cccccc;
     padding: 7px 10px;
     margin: 10px;
 }
-.Upcoming-events .time-event{
+.upcoming-events .time-event{
     text-align: right;
 }
+.upcoming-events .m-cate-list .col-md-4 .card{
+    position: relative;
+}
+.upcoming-events .m-cate-list .col-md-4 .card .time-event{
+    position: absolute;
+    top: 17px;
+    right: 5px;
+}
+.upcoming-events #post .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF8333;
+}
+.upcoming-events .post-wrap img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.upcoming-events #post .btn:hover{
+    background: #FF8333;
+    color: #fff;
+}
+.upcoming-events .post-wrap{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+.upcoming-events .post-wrap .col-md-8 .m-title-post{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    width: 65%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.upcoming-events .post-wrap .col-md-8 .m-title-post:hover{
+    color: #fcc818;
+    font-size: 20px;
+    font-weight: 500;
+}
+.upcoming-events .upcoming-box-event-des{
+    position: relative;
+}
+.upcoming-events .upcoming-box-event-des .time-event{
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+.upcoming-events .upcoming-box-event-des .time-event #clockdiv .hours {
+     background-color: #fcc818;
+     padding: 7px 10px;
+     margin: 10px;
+ }
+.upcoming-events .upcoming-box-event-des .time-event #clockdiv .minutes {
+    background-color: #fcc818;
+    padding: 7px 10px;
+    margin: 10px;
+}
+.upcoming-events .upcoming-box-event-des .time-event #clockdiv .seconds {
+    background-color: #fcc818;
+    padding: 7px 10px;
+    margin: 10px;
+}
+@media screen and (max-width: 768px){
+    .upcoming-events #post .btn{
+        position: relative;
+        margin-bottom: 10px;
+        top: 0;
+        left: 0;
+        transform: translate(0,0);
+    }
+    .upcoming-events .post-wrap p{padding: 10px;}
+}
+
+.upcoming-events .space{height: 50px;}
