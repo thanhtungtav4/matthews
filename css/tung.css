@@ -712,12 +712,12 @@
    margin-bottom: 7px;
 }
 .events-cat .m-box .m-title-post{
-    overflow: hidden;
-    text-overflow: ellipsis;
     line-height: 25px;
     -webkit-line-clamp: 2;
-    display: -webkit-box;
     -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .detail-text-product .m-cate-list_title-left a {
     border-left: unset;
@@ -1076,9 +1076,23 @@
     text-transform: uppercase;
 
 }
+.mt-address{
+    padding: 15px;
+    border-top: 1px solid rgba(125, 122, 106, 0.71);
+}
 .mt-card .card-login button:hover{
     background-color: #000000;
     color: #ffff;
+}
+.mt-card .btn_edit_address{
+    background-color: #ffba10;
+}
+.mt-card .btn_address{
+    text-align: right;
+}
+.mt-card .mt-address .custom-control-label{
+    font-weight: 500;
+
 }
 @media screen and (max-width: 768px){
     .upcoming-events #post .btn{
