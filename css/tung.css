@@ -965,10 +965,42 @@
 .mt-card .note-card .form-group{
     width: 100%
 }
+
 .mt-card .delivery_address .address_title{
     font-size: 25px;
     font-weight: 500;
     margin-top: 30px;
+}
+.mt-card .titile-address-box{
+    background-color: #fff5d3;
+    font-size: 18px;
+    font-weight: 500;
+}
+.mt-card .titile-address-box p{
+    padding: 10px;
+}
+.mt-card .box-from-address{
+    border: 1px #ccc9c2 solid;
+    margin-bottom: 20px;
+}
+.mt-card .box-from-address form{
+    padding: 10px;
+}
+.mt-card .delivery_address a{
+    color: #ffba10;
+    font-weight: 500;
+    font-size: 18px;
+}
+.mt-card .delivery_address a:hover{
+    color: black;
+}
+.mt-card .delivery_address .checkbox_carđ{
+    padding: 15px;
+}
+.mt-card .delivery_address .checkbox_carđ .custom-control-input:checked~.custom-control-label::before {
+    color: #ffff;
+    border-color: #f7c30d;
+    background-color: #fcc818;
 }
 @media screen and (max-width: 768px){
     .upcoming-events #post .btn{
