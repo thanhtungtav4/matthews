@@ -1117,6 +1117,158 @@
     border: unset;
     margin: 30px;
 }
+.mt-login-register{
+    background-color: #FFFFFF;
+    text-align: center;
+    font-weight: 500;
+    padding: 30px;
+}
+.mt-login-register .nav-tabs{
+    width: 100%;
+    border-bottom: 1px solid #f7c30d;
+}
+.mt-login-register .nav-tabs .nav-item {
+    width: 50%;
+}
+.mt-login-register .nav-tabs .nav-item a{
+  color: #494949;
+}
+.mt-login-register li .active{
+   color: #ffba10!important;
+    border-bottom: 2px solid;
+}
+.mt-login-register .register a{
+    text-align: left;
+    margin: 0 10px;
+}
+.mt-login-register .login a{
+    text-align: right;
+    margin: 0 10px;
+}
+.mt-login-register .login .active{
+    text-align: -webkit-right;
+}
+.mt-login-register .nav-tabs .nav-item {
+     margin-bottom: unset;
+}
+.mt-login-register .nav-link:hover {
+    border-top: unset;
+    border-right: unset;
+    border-left: unset;
+}
+.mt-login-register .nav-tabs .nav-link {
+    border-top: unset;
+    border-right: unset;
+    border-left: unset;
+}
+.mt-login-register .row .col{
+    text-align: center;
+}
+.mt-login-register .mt-form-submit {
+    max-width: 70%;
+    padding: 30px;
+    margin: 0 auto;
+}
+.mt-login-register .mt-form-submit form{
+    text-align: left;
+    padding: 40px;
+
+}
+.mt-login-register .mt-form-submit .forgot-password{
+    text-align: left;
+
+}
+.mt-login-register .mt-form-submit .forgot-password a{
+    color: #ffba10;
+}
+.mt-login-register .mt-form-submit .mt-remember{
+    text-align: right;
+    padding-right: 20px;
+}
+.mt-login-register .mt-form-submit .mt-password{
+    padding-left: 20px;
+    text-decoration: underline;
+}
+.mt-login-register .mt-form-submit button{
+    width: 100%;
+    background-color: #f7c30d;
+    font-weight: 500;
+    border: unset;
+    text-transform: uppercase;
+}
+.mt-login-register .mt-form-submit .login_social_box{
+    /*padding: 0px 40px 40px 40px;*/
+}
+
+.mt-login-register .mt-form-submit .login_social_box .facebook_btn_box {
+    background-color: #46559b;
+    color: #ffff;
+    display: inline-flex;
+    width: 100%;
+    text-align: left;
+    padding: 8px 20px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.mt-login-register .mt-form-submit .login_social_box .google_btn_box {
+    background-color: #db2e32;
+    color: #ffff;
+    display: inline-flex;
+    width: 100%;
+    text-align: left;
+    padding: 8px 20px;
+    text-transform: uppercase;
+}
+.mt-login-register .mt-form-submit .login_social_box .facebook_btn_box .text-google_icon p{
+    margin-bottom:0px;
+}
+.mt-login-register .mt-form-submit .login_social_box .facebook_btn_box .text-google_icon{
+    text-align: center;
+    width: 90%;
+}
+.mt-login-register .mt-form-submit .login_social_box .facebook_btn_box .icon_google{
+    padding-right: 12px;
+    border-right: 1.3px solid #7b6d6d;
+}
+
+.mt-login-register .mt-form-submit .login_social_box .google_btn_box .text-google_icon p{
+    margin-bottom:0px;
+}
+.mt-login-register .mt-form-submit .login_social_box .google_btn_box .text-google_icon{
+    text-align: center;
+    width: 90%;
+ }
+.mt-login-register .mt-form-submit .login_social_box .google_btn_box .icon_google{
+    padding-right: 6px;
+    border-right: 1.3px solid #7b6d6d;
+}
+.mt-login-register .mt-form-submit #register .remember_box .mt-remember{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+.mt-login-register .mt-form-submit #register .remember_box{
+    padding-left: 15px;
+}
+.mt-login-register .login_social_box{
+    padding: 0 40px;
+}
+.mt-login-register #datepicker{
+    position: relative;
+}
+.mt-login-register #register .input-group-addon{
+    position: absolute;
+    top: 7px;
+    right: 5px;
+}
+.mt-login-register #register  .form-control:disabled, .form-control[readonly] {
+    background-color: #ffffff;
+}
+.mt-login-register #register .sex_box{
+    padding: 10px;
+}
 @media screen and (max-width: 768px){
     .upcoming-events #post .btn{
         position: relative;
@@ -1126,6 +1278,26 @@
         transform: translate(0,0);
     }
     .upcoming-events .post-wrap p{padding: 10px;}
-}
+    .mt-login-register .mt-form-submit {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .mt-login-register .mt-form-submit form {
 
+         padding: 10px;
+    }
+    .mt-login-register .mt-form-submit{
+        padding: 0px;
+    }
+    .mt-login-register .login_social_box {
+        padding: 0 8px;
+        font-size: 15px;
+    }
+    .mt-login-register {
+        background-color: #FFFFFF;
+        text-align: center;
+        font-weight: 500;
+        padding: 20px 0;
+    }
+}
 .upcoming-events .space{height: 50px;}

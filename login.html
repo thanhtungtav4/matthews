@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.png">
+
+    <title>Home | Matthews Liquor</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-touchspin/4.2.5/jquery.bootstrap-touchspin.min.css">
+    <link href="lib/swiper/css/swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/owlCarousel2/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owlCarousel2/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+    <!-- Custom styles for this template -->
+      <link href="css/style.css" rel="stylesheet">
+    <link href="css/tung.css" rel="stylesheet">
+</head>
+
+<body class="m-bg-home">
+<div class='loading'>
+    <div class="spinner"></div>
+</div>
+<header class="mt-bg-cate">
+    <div class="m-menu">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png">
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Wine</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Beer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sprits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">RTD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Liquer</a>
+                        </li>
+                    </ul>
+                    <form id="search-form" class="form-inline search-form search-container">
+                        <div class="search-box">
+                            <input class="search-input" type="text" placeholder="Search">
+                            <a href="#" class="search-btn">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </div>
+
+                    </form>
+
+                    <ul class="navbar-nav m-menu-info">
+                        <!-- <li class="nav-item"><a href=""><i class="fa fa-search"></i></a> | </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle"></i> login</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container mt-cate">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </nav>
+    </div>
+</header>
+<main role="main" class="m-wrapper">
+    <section class="mt-login-register">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="mt-form-submit">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item login">
+                                <a class="nav-link active" href="#login" role="tab" data-toggle="tab">LOGIN</a>
+                            </li>
+                            <li class="nav-item register">
+                                <a class="nav-link" href="#register" role="tab" data-toggle="tab">REGISTER</a>
+                            </li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active show" id="login">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="InputEmail1">Email address</label>
+                                        <input type="email" class="form-control fas" id="InputEmail1"  placeholder="&#xf0e0">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="InputPassword1">Password</label>
+                                        <input type="password" class="form-control fas" id="InputPassword1"  placeholder="&#xf084">
+                                    </div>
+                                    <div class="form-row remember_box">
+                                        <div class="form-group col-md-6 mt-remember">
+                                            <input type="checkbox" class="form-check-input" id="remember">
+                                            <label class="form-check-label" for="remember">Remember</label>
+                                        </div>
+                                        <div class="form-group col-md-6 mt-password">
+                                            <p class="forgot-password"><a href="">Forgot password?</a></p>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                                <div class="login_social_box">
+                                    <div class="mt-or">
+                                        <p>OR</p>
+                                    </div>
+                                    <div class="title-text-login_card">
+                                        <p class="text-login-form"><span>Login</span> by social account</p>
+                                    </div>
+                                    <div class="socail_box_login">
+                                        <div class="facebook_btn_box">
+                                            <div class="icon_google">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </div>
+                                            <div class="text-google_icon">
+                                                <p> Login by Facebook</p>
+                                            </div>
+                                        </div>
+                                        <div class="google_btn_box">
+                                            <div class="icon_google">
+                                                <i class="fab fa-google-plus-g"></i>
+                                            </div>
+                                            <div class="text-google_icon">
+                                               <p> Login by Google+</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="register">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="name">Name</label>
+                                        <input type="name" class="form-control fas" id="name"  placeholder="&#xf573">
+                                    </div>
+                                    <!--<div class="form-row remember_box">-->
+                                        <!--<div class="form-group col-md-6 mt-remember">-->
+                                            <!--<div class="form-row">-->
+                                                <!--<label for="calendar">Date</label>-->
+                                                <!--<div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">-->
+                                                    <!--<input class="form-control" id="calendar" type="text" readonly />-->
+                                                    <!--<span class="input-group-addon"><i class="far fa-calendar-alt"></i></span>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label for="calendar">Date</label>
+                                            <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+                                                <input class="form-control" id="calendar" type="text" readonly />
+                                                <span class="input-group-addon"><i class="far fa-calendar-alt"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="calendar">Sex</label>
+                                            <div class="sex_box">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="customRadioInline1">male</label>
+                                                </div>
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="customRadioInline2">female</label>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="InputEmail1">Email address/ Phone number</label>
+                                        <input type="email" class="form-control fas" id="InputEmail1"  placeholder="&#xf0e0">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="InputPassword1">Password</label>
+                                        <input type="password" class="form-control fas" id="InputPassword1"  placeholder="&#xf084">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="InputPasswordagain">Password again</label>
+                                        <input type="password" class="form-control fas" id="InputPasswordagain"  placeholder="&#xf084">
+                                    </div>
+                                    <div class="form-row remember_box">
+                                        <div class="form-group col mt-remember">
+                                            <input type="checkbox" class="form-check-input" id="remember">
+                                            <label class="form-check-label" for="remember">Receive promotions information from Matthews liquor by email.</label>
+                                            <p>When you click register, you agree to the terms of use and service policy of Matthews Liquor.</p>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">REGISTER</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<section class="footer-mail" id=email-footer>
+    <div class="container">
+        <div class="row box-mail-footer">
+            <div class="col-md-4 email">
+                <div class="box-email">
+                    <img class="email-img" src="images/mail.png">
+                </div>
+                <div class="box-txt-email">
+                    <span class="text-email">Recevice Promotion Email</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box-from">
+                    <form id="email-recevice">
+                        <input class="form-control" type="email" placeholder="Enter Email" name="Email">
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="box-btn-send">
+                    <div class="btn-send">
+                        <button type="submit" form="email-recevice"> <i class="fas fa-paper-plane"></i> Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer mt-footer-2">
+    <div class="container">
+        <ul class="footer-list">
+            <li><a href="#">CONTACTS</a></li>
+            <li><a href="#">FIND THE NEAREST STORES</a></li>
+            <li><a href="tel:1300 72 33 88"><i class="fas fa-phone"></i> HOTLINE <span>1300 72 33 88</span></a></li>
+            <li class="child_border">
+                <span><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></span>
+                <span><a href="#"><i class="fab fa-google-plus-g fa-2x"></i></a></span>
+                <span><a href="#"><i class="fab fa-twitter fa-2x"></i></a></span>
+                <span><a href="#"><i class="fab fa-youtube fa-2x"></i></a></span>
+
+            </li>
+        </ul>
+    </div>
+
+</footer>
+<div id="to-top"><img src="images/top.png" ></div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+
+
+<!-- <script src="../../../../assets/js/vendor/popper.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-touchspin/4.2.5/jquery.bootstrap-touchspin.min.js"></script>
+<script src="https://idangero.us/swiper/dist/js/swiper.min.js"></script>
+<script src="lib/owlCarousel2/owl.carousel.js"></script>
+<script type="text/javascript" src="lib/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+<!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+<script>
+    $(function () {
+        $("#datepicker").datepicker({
+            autoclose: true,
+            todayHighlight: true
+        }).datepicker('update', new Date());
+    });
+
+</script>
+<script>
+
+    $(document).ready(function() {
+
+        setTimeout(function() {
+            $('.loading').fadeOut(300, function() {
+                $(this).remove();
+            });
+        }, 800);
+        $("#inpt_search").on('focus', function () {
+            $(this).parent('label').addClass('active');
+        });
+
+        $("#inpt_search").on('blur', function () {
+            if($(this).val().length == 0)
+                $(this).parent('label').removeClass('active');
+        });
+
+    });
+    $('.modal').on('shown.bs.modal', function (e) {
+        $(window).trigger('resize');
+    })
+    $(function() {
+        $('input[name="touchspin-5"]').TouchSpin({
+            verticalbuttons: true,
+            verticalup: '<i class="fas fa-angle-up"></i>',
+            verticaldown: '<i class="fas fa-angle-down"></i>',
+        });
+    });
+
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('#to-top').fadeIn();
+        } else {
+            $('#to-top').fadeOut();
+        }
+    });
+    $('#to-top').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+</script>
+</body>
+</html>
