@@ -6,9 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="images/favicon.png">
-
     <title>Home | Matthews Liquor</title>
-
     <!-- Bootstrap core CSS -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap&subset=vietnamese" rel="stylesheet">
@@ -21,10 +19,9 @@
     <link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
     <!-- Custom styles for this template -->
-      <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="css/tung.css" rel="stylesheet">
 </head>
-
 <body class="m-bg-home">
 <div class='loading'>
     <div class="spinner"></div>
@@ -97,124 +94,71 @@
     </div>
 </header>
 <main role="main" class="m-wrapper">
-    <section class="mt-login-register">
+    <section class="account_box">
         <div class="container">
+            <h1 class="my-account-title">My Account</h1>
             <div class="row">
-                <div class="col">
-                    <div class="mt-form-submit">
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-item login">
-                                <a class="nav-link active" href="#login" role="tab" data-toggle="tab">LOGIN</a>
-                            </li>
-                            <li class="nav-item register">
-                                <a class="nav-link" href="#register" role="tab" data-toggle="tab">REGISTER</a>
-                            </li>
-                        </ul>
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane fade in active show" id="login">
-                                <form>
-                                    <div class="form-group">
-                                        <label for="InputEmail1">Email address</label>
-                                        <input type="email" class="form-control fas" id="InputEmail1"  placeholder="&#xf0e0">
+                <div class="col-md-3">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#home">My infomation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menu1">Address book</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menu2">Change password</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                    <div class="tab-content">
+                        <div id="home" class="container tab-pane active">
+                            <div class="row infomation">
+                                <div class="col-md-4">
+                                    <div class="avata">
+                                        <img src="images/ava.png">
+                                        <p><a href="#">Upload avata</a></p>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="InputPassword1">Password</label>
-                                        <input type="password" class="form-control fas" id="InputPassword1"  placeholder="&#xf084">
-                                    </div>
-                                    <div class="form-row remember_box">
-                                        <div class="form-group col-md-6 mt-remember">
-                                            <input type="checkbox" class="form-check-input" id="remember">
-                                            <label class="form-check-label" for="remember">Remember</label>
-                                        </div>
-                                        <div class="form-group col-md-6 mt-password">
-                                            <p class="forgot-password"><a href="">Forgot password?</a></p>
-                                        </div>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                </form>
-                                <div class="login_social_box">
-                                    <div class="mt-or">
-                                        <p>OR</p>
-                                    </div>
-                                    <div class="title-text-login_card">
-                                        <p class="text-login-form"><span>Login</span> by social account</p>
-                                    </div>
-                                    <div class="socail_box_login">
-                                        <div class="facebook_btn_box">
-                                            <div class="icon_google">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </div>
-                                            <div class="text-google_icon">
-                                                <p> Login by Facebook</p>
+                                </div>
+                                <div class="col-md-8">
+                                    <form>
+                                        <div class="form-group row">
+                                            <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Full name</label>
+                                            <div class="col-sm-8">
+                                                <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="">
                                             </div>
                                         </div>
-                                        <div class="google_btn_box">
-                                            <div class="icon_google">
-                                                <i class="fab fa-google-plus-g"></i>
-                                            </div>
-                                            <div class="text-google_icon">
-                                               <p> Login by Google+</p>
+                                        <div class="form-group row">
+                                            <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Phone</label>
+                                            <div class="col-sm-8">
+                                                <input type="number" class="form-control form-control-sm" id="colFormLabelSm" placeholder="">
                                             </div>
                                         </div>
-                                    </div>
+                                        <div class="form-group row">
+                                            <label for="colFormLabelSm" class="col-sm-3 col-form-label col-form-label-sm">Email</label>
+                                            <div class="col-sm-8">
+                                                <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="btn_update_box">
+                                            <button type="submit" class="col-sm-8 btn btn-update">UPDATE</button>
+                                        </div>
 
+
+                                    </form>
                                 </div>
                             </div>
-                            <div role="tabpanel" class="tab-pane fade" id="register">
-                                <form>
-                                    <div class="form-group">
-                                        <label for="name">Name</label>
-                                        <input type="name" class="form-control fas" id="name"  placeholder="&#xf573">
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <label for="calendar">Date</label>
-                                            <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
-                                                <input class="form-control" id="calendar" type="text" readonly />
-                                                <span class="input-group-addon"><i class="far fa-calendar-alt"></i></span>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="calendar">Sex</label>
-                                            <div class="sex_box">
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-                                                    <label class="custom-control-label" for="customRadioInline1">male</label>
-                                                </div>
-                                                <div class="custom-control custom-radio custom-control-inline">
-                                                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-                                                    <label class="custom-control-label" for="customRadioInline2">female</label>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="InputEmail1">Email address/ Phone number</label>
-                                        <input type="email" class="form-control fas" id="InputEmail1"  placeholder="&#xf0e0">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="InputPassword1">Password</label>
-                                        <input type="password" class="form-control fas" id="InputPassword1"  placeholder="&#xf084">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="InputPasswordagain">Password again</label>
-                                        <input type="password" class="form-control fas" id="InputPasswordagain"  placeholder="&#xf084">
-                                    </div>
-                                    <div class="form-row remember_box">
-                                        <div class="form-group col mt-remember">
-                                            <input type="checkbox" class="form-check-input" id="remember">
-                                            <label class="form-check-label" for="remember">Receive promotions information from Matthews liquor by email.</label>
-                                            <p>When you click register, you agree to the terms of use and service policy of Matthews Liquor.</p>
-                                        </div>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary">REGISTER</button>
-                                </form>
-                            </div>
+                        </div>
+                        <div id="menu1" class="container tab-pane fade">
+                            <h3>Menu 1</h3>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div id="menu2" class="container tab-pane fade">
+                            <h3>Menu 2</h3>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

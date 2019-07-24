@@ -1269,6 +1269,61 @@
 .mt-login-register #register .sex_box{
     padding: 10px;
 }
+.account_box{
+    background-color: #ffff;
+}
+.account_box .my-account-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #f7c30d;
+    line-height: 20px;
+    padding: 20px 0;
+}
+.account_box ul li a{
+    color: black;
+    font-weight: 400;
+    line-height: 20px;
+    border: 0.3px solid #7d7a6a;
+    padding: 12px;
+}
+.account_box ul li:hover a{
+    background-color: #f7e091;
+}
+.account_box .col-md-3 .active {
+    background-color: #f7e091;
+}
+.account_box ul li{
+    width: 100%;
+}
+.account_box form button{
+    text-align: center;
+}
+.account_box .avata a{
+    color: #333333;
+    text-decoration: underline;
+    text-align: center;
+}
+.account_box .infomation .col-md-4{
+    text-align: center;
+}
+.account_box  .btn_update_box{
+    text-align: right;
+    width: 100%;
+    padding-right: 44px;
+}
+
+.account_box .btn-update{
+    background-color: #ffba10;
+    padding: 6px 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffff;
+}
+.account_box .infomation{
+    border: 0.5px solid #cccccc;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+}
 @media screen and (max-width: 768px){
     .upcoming-events #post .btn{
         position: relative;
