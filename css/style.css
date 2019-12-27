@@ -685,7 +685,62 @@ img{max-width: 100%}
 .mt-login-register .mt-form-submit .login_social_box{
 	/*padding: 0px 40px 40px 40px;*/
 }
-
+.sider-product-bg{
+	background-image: url(../images/bg_info.png);
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bb-tabs--tab {
+	display: -ms-flexbox;
+	display: flex;
+	padding: 5px;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+	line-height: 18px;
+	color: #efcb5d;
+	background-color: #121212;
+	transition: all .2s ease;
+	box-shadow: inset 0 0 0 1px #efcb5d;
+}
+.bb-tabs--tab.two {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+}
+.bb-tabs--tab:first-child {
+	border-radius: 3px 0 0 3px;
+}
+.nt_center{
+	text-align: center;
+}
+.sider-product-bg .nav-tabs {
+	border-bottom: unset;
+	display: inline-flex;
+	margin-bottom: 20px;
+}
+.sider-product-bg .nt_center .nav-tabs li a {
+	min-width: 50px;
+	padding: 10px 25px;
+}
+.sider-product-bg  .nav-tabs .active {
+	background-color: #efcb5d;
+	color: black;
+}
+.bb-topchartitem:first-child {
+	border-radius: 0 7px 0 0;
+}
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	cursor: pointer;
+}
 .mt-login-register .mt-form-submit .login_social_box .facebook_btn_box {
 	background-color: #46559b;
 	color: #ffff;
@@ -882,11 +937,666 @@ img{max-width: 100%}
 	text-align: center;
 	height: auto;
 }
+.bb-topchartitem--image {
+	height: 100%;
+}
+.bb-topchartitem--media {
+	overflow: hidden;
+	height: 80px;
+	min-width: 46px;
+	max-width: 53px;
+	background-color: #fff;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding: 5px 10px;
+}
+.bb-topchartitem--description {
+	-ms-flex: 1;
+	flex: 1;
+	margin: 0 10px;
+	padding-right: 12px;
+	line-height: 18px;
+	font-size: 14px;
+}
+.bb-topchartitem--name {
+	color: #edeae4;
+}
+.bb-topchartitem--name, .bb-topchartitem--style {
+	max-height: 36px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	font-weight: 400;
+}
+.bb-topchartitem--style {
+	color: #999;
+}
+.bb-topchartitem {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
+	background-color: #2b2b2b;
+	margin-bottom: 1px;
+	white-space: normal;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.bb-topchartitem:first-child {
+	border-radius: 0 7px 0 0;
+}
+.bb-topchartitem--name, .bb-topchartitem--style {
+	max-height: 36px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	font-weight: 400;
+}
+/*///*/
+@media (min-width:992px) {
+	.slider {
+		overflow-x: hidden;
+		overflow: auto;
+		-webkit-overflow: scroll;
+		-webkit-overflow-scrolling: touch
+	}
+}
+
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	cursor: pointer
+}
+
+.gin {
+	color: #fff
+}
+
+.gin {
+	background: #b399c6
+}
+
+.whisky {
+	background: #f19820;
+	color: #fff
+}
+
+@font-face {
+	font-family: SharpSans;
+	font-style: normal;
+	font-weight: 100;
+	src: url(fonts/SharpSans-Thin.woff) format("woff")
+}
+
+@font-face {
+	font-family: SharpSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url(fonts/SharpSans-Light.woff) format("woff")
+}
+
+@font-face {
+	font-family: SharpSans;
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/SharpSans-Book.woff) format("woff")
+}
+
+@font-face {
+	font-family: SharpSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url(fonts/SharpSans-Medium.woff) format("woff")
+}
+
+@font-face {
+	font-family: SharpSans;
+	font-style: normal;
+	font-weight: 600;
+	src: url(fonts/SharpSans-Semibold.woff) format("woff")
+}
+
+@font-face {
+	font-family: SharpSans;
+	font-style: normal;
+	font-weight: 900;
+	src: url(fonts/SharpSans-Extrabold.woff) format("woff")
+}
+
+@font-face {
+	font-family: MediaSans;
+	font-style: normal;
+	font-weight: 100;
+	src: url(fonts/mediasansweb-light.woff) format("woff")
+}
+
+@font-face {
+	font-family: MediaSans;
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/mediasansweb-regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: MediaSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url(fonts/mediasansweb-bold.woff) format("woff")
+}
+
+@font-face {
+	font-family: MediaSans;
+	font-style: normal;
+	font-weight: 600;
+	src: url(fonts/mediasansweb-black.woff) format("woff")
+}
+
+@font-face {
+	font-family: MediaSans;
+	font-style: normal;
+	font-weight: 700;
+	src: url(fonts/mediasansweb-ultra.woff) format("woff")
+}
+
+html {
+	background: 0 0
+}
+
+body {
+	-webkit-font-smoothing: auto
+}
+
+body {
+	color: #edeae4;
+	font-size: 16px;
+	font-family: SharpSans, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 26px;
+	height: 100%;
+	overflow-y: scroll;
+	margin: 0
+}
+
+body {
+	background: #121212
+}
+
+a {
+	text-decoration: none;
+	font-weight: 400;
+	color: #efcb5d
+}
+
+p {
+	margin: 0 0 10px;
+	font-size: 16px;
+	font-family: SharpSans, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 26px
+}
+
+img {
+	vertical-align: middle;
+	border: 0
+}
+
+p {
+	color: #666
+}
+
+html,
+p {
+	font-family: SharpSans, Helvetica, Arial, sans-serif
+}
+
+@supports (padding:max(0px)) {
+	.preferences-footer {
+		padding-bottom: max(10px, env(safe-area-inset-bottom))
+	}
+}
+
+@media (min-width:768px) {
+	@supports (padding: max(0px)) {
+		.preferences-footer {
+			padding-bottom:max(40px, env(safe-area-inset-bottom))
+		}
+	}
+}
+
+div[data-test-id=ChatWidgetMobileButton] {
+	display: none!important
+}
+
+.bb-svg-icon {
+	height: 40px;
+	width: 40px;
+	stroke: #fff;
+	fill: #fff
+}
+
+.bb-svg-icon:hover {
+	stroke: #efcb5d
+}
+
+.bb-slider--container {
+	margin-top: 15px;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	-webkit-overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+	white-space: nowrap
+}
+
+@media (min-width:992px) {
+	.bb-slider--container {
+		overflow: auto;
+		overflow-x: hidden
+	}
+}
+
+@media (min-width:992px) {
+	.bb-slider--container:hover .bb-slider--next,
+	.bb-slider--container:hover .bb-slider--prev {
+		display: block
+	}
+}
+
+.bb-slider--next,
+.bb-slider--prev {
+	position: absolute;
+	background-color: #000;
+	opacity: .2;
+	height: 100%;
+	width: 50px;
+	bottom: 0;
+	display: none;
+	z-index: 2
+}
+
+@media (min-width:992px) {
+	.bb-slider--next,
+	.bb-slider--prev {
+		cursor: pointer
+	}
+}
+
+.bb-slider--next--external,
+.bb-slider--prev--external {
+	display: block;
+	bottom: calc(50% - 25px);
+	border: 2px solid #121212;
+	border-radius: 50%;
+	height: 50px;
+	opacity: .2;
+	cursor: default
+}
+
+.bb-slider--next--external-enable,
+.bb-slider--prev--external-enable {
+	opacity: 1;
+	cursor: pointer;
+	transition: border-color .3s ease;
+	background-color: rgba(0, 0, 0, .4);
+	border-color: #333;
+	box-shadow: none
+}
+
+.bb-slider--next--external-enable:hover,
+.bb-slider--prev--external-enable:hover {
+	background-color: #121212;
+	border-color: #fff;
+	box-shadow: inset 0 0 4px #fff
+}
+
+.bb-slider--prev {
+	left: 0
+}
+
+.bb-slider--prev--external {
+	left: -65px
+}
+
+.bb-slider--next {
+	right: 0
+}
+
+.bb-slider--next--external {
+	right: -65px
+}
+
+.bb-slider--arrow {
+	color: #fff;
+	font-size: 40px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	overflow: hidden
+}
+
+.bb-slider--arrow--external>.bb-slider--arrow-icon {
+	transform: scale(1.4)
+}
+
+.bb-slider--arrow-icon {
+	transform: scale(2.5)
+}
+
+.bb-slider--arrow-icon:hover {
+	stroke: #fff
+}
+
+@media (min-width:992px) {
+	.bb-slider {
+		position: relative
+	}
+}
+
+.bb-slider--items {
+	display: -ms-flexbox;
+	display: flex
+}
+
+@media (min-width:992px) {
+	.bb-slider--large-width {
+		width: calc(100% - 160px);
+		margin: auto
+	}
+}
+
+@media (min-width:1280px) {
+	.bb-slider--large-width {
+		width: 992px
+	}
+}
+
+.bb-slider--product {
+	min-height: 346px
+}
+
+@media (min-width:360px) {
+	.bb-slider--product {
+		min-height: 380px
+	}
+}
+
+@media (min-width:480px) {
+	.bb-slider--product {
+		min-height: 339px
+	}
+}
+
+@media (min-width:576px) {
+	.bb-slider--product {
+		min-height: 319px
+	}
+}
+
+@media (min-width:768px) {
+	.bb-slider--product {
+		min-height: 341px
+	}
+}
+
+@media (min-width:992px) {
+	.bb-slider--product {
+		min-height: 408px
+	}
+}
+
+.bb-slider--topchart {
+	min-height: 243px;
+	margin-right: 10px;
+	-ms-flex: 0 0 calc(100% - 101px);
+	flex: 0 0 calc(100% - 101px)
+}
+
+@media (min-width:680px) {
+	.bb-slider--topchart {
+		-ms-flex: 0 0 calc(50% - 51px);
+		flex: 0 0 calc(50% - 51px)
+	}
+}
+
+@media (min-width:992px) {
+	.bb-slider--topchart {
+		min-height: 303px;
+		-ms-flex: 0 0 calc(100%/3 - 7px);
+		flex: 0 0 calc(100%/3 - 7px)
+	}
+}
+
+@media (min-width:1280px) {
+	.bb-slider--topchart {
+		min-height: 303px;
+		-ms-flex: 0 0 324px;
+		flex: 0 0 324px
+	}
+}
+
+.bb-slider--topchart:last-child {
+	margin-right: 0
+}
+
+.bb-tabs {
+	display: -ms-flexbox;
+	display: flex;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+	min-height: 30px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.bb-tabs--wrapper>div {
+	margin-top: 10px
+}
+
+.bb-tabs--tab {
+	display: -ms-flexbox;
+	display: flex;
+	padding: 5px;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+	line-height: 18px;
+	color: #efcb5d;
+	background-color: #121212;
+	transition: all .2s ease;
+	box-shadow: inset 0 0 0 1px #efcb5d
+}
+
+@media (min-width:992px) {
+	.bb-tabs--tab:hover {
+		background-color: #000
+	}
+}
+
+.bb-tabs--tab:first-child {
+	border-radius: 3px 0 0 3px
+}
+
+.bb-tabs--tab:last-child {
+	border-radius: 0 3px 3px 0
+}
+
+.bb-tabs--tab.two {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%
+}
+
+.bb-tabs--tab.four {
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%
+}
+
+.bb-tabs--tab--active {
+	cursor: default;
+	color: #121212
+}
+
+.bb-tabs--tab--active,
+.bb-tabs--tab--active:hover {
+	background-color: #efcb5d
+}
+
+.bb-topchartitem {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
+	background-color: #2b2b2b;
+	margin-bottom: 1px;
+	white-space: normal;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.bb-topchartitem:first-child {
+	border-radius: 0 7px 0 0
+}
+
+.bb-topchartitem:last-child {
+	border-radius: 0 0 7px 7px
+}
+
+.bb-topchartitem--media {
+	overflow: hidden;
+	height: 80px;
+	min-width: 46px;
+	max-width: 53px;
+	background-color: #fff;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding: 5px 10px
+}
+
+@media (min-width:992px) {
+	.bb-topchartitem--media {
+		height: 100px
+	}
+}
+
+.bb-topchartitem--image {
+	height: 100%
+}
+
+.bb-topchartitem--order {
+	border-radius: 50%;
+	text-align: center;
+	font-size: 12px;
+	line-height: 26px;
+	width: 25px;
+	height: 25px;
+	margin-left: 10px;
+	box-shadow: inset 0 0 0 2px #edeae4
+}
+
+.bb-topchartitem--description {
+	-ms-flex: 1;
+	flex: 1;
+	margin: 0 10px;
+	padding-right: 12px;
+	line-height: 18px;
+	font-size: 14px
+}
+
+.bb-topchartitem--name,
+.bb-topchartitem--style {
+	max-height: 36px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	font-weight: 400
+}
+.sider-product-bg .tab-content{
+	margin-bottom: 0;
+}
+.bb-topchartitem--name {
+	color: #edeae4
+}
+
+.bb-topchartitem--style {
+	color: #999
+}
+
+.bb-topchartitem--arrow {
+	position: absolute;
+	right: -5px;
+	top: 50%;
+	transform: translateY(-50%);
+	stroke: #efcb5d
+}
+.bb-topchartitem .fa-chevron-right{
+	color: #efcb5d;
+}
+.image-mask {
+	background: rgba(0, 0, 0, .3);
+	height: inherit
+}
+
+.bb-component--centered-sm {
+	margin: auto;
+	text-align: center
+}
+
+@media (max-width:992px) {
+	.bb-component--centered-sm {
+		padding: 0 10px
+	}
+}
+
+@media (min-width:576px) {
+	.bb-component--centered-sm {
+		max-width: 576px
+	}
+}
+
+.bb-component--container {
+	margin: 15px auto 0
+}
+
+@media (min-width:992px) {
+	.bb-order {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto
+	}
+}
+
+.bb-order--items {
+	margin-bottom: 30px
+}
+
+/*////*/
+
+@media (min-width: 992px){
+	.bb-topchartitem--media {
+		height: 100px;
+	}
+}
 @media only screen and (max-width: 1024px){
 	.m-menu li {
 		padding: 0 0.5rem;
 	}
 }
+
 
 @media screen and (max-width: 768px){
 	.m-menu-info{
