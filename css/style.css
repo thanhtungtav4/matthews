@@ -741,6 +741,9 @@ img{max-width: 100%}
 	z-index: 2;
 	cursor: pointer;
 }
+input {
+	text-align: center;
+}
 .search-input {
 	width: 129px !important;
 	padding: 0 16px;
