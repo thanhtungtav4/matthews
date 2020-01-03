@@ -690,6 +690,7 @@ img{max-width: 100%}
 	background-position: center top;
 	background-size: cover;
 	background-repeat: no-repeat;
+    padding: 20px 0;
 }
 .bb-tabs--tab {
 	display: -ms-flexbox;
@@ -916,7 +917,39 @@ input {
 	display: inline-block;
 }
 
-/*//*/
+/*ggggg*/
+.owl-carousel .nav-btn{
+	height: 47px;
+	position: absolute;
+	width: 26px;
+	cursor: pointer;
+	top: 100px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled{
+	pointer-events: none;
+	opacity: 0.2;
+}
+
+.owl-carousel .prev-slide{
+	background: url('https://freakyjolly.com/demo/jquery/OwlCarousel2/nav-icon.png') no-repeat scroll 0 0;
+	left: -33px;
+}
+.owl-carousel .next-slide{
+	background: url('https://freakyjolly.com/demo/jquery/OwlCarousel2/nav-icon.png') no-repeat scroll -24px 0px;
+	right: -33px;
+}
+.owl-carousel .prev-slide:hover{
+	background-position: 0px -53px;
+}
+.owl-carousel .next-slide:hover{
+	background-position: -24px -53px;
+}
+/*/
+
+/*/
+
 .mt-cate-info-content .m-cate-info_description {
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -1041,105 +1074,6 @@ input {
 	color: #fff
 }
 
-@font-face {
-	font-family: SharpSans;
-	font-style: normal;
-	font-weight: 100;
-	src: url(fonts/SharpSans-Thin.woff) format("woff")
-}
-
-@font-face {
-	font-family: SharpSans;
-	font-style: normal;
-	font-weight: 300;
-	src: url(fonts/SharpSans-Light.woff) format("woff")
-}
-
-@font-face {
-	font-family: SharpSans;
-	font-style: normal;
-	font-weight: 400;
-	src: url(fonts/SharpSans-Book.woff) format("woff")
-}
-
-@font-face {
-	font-family: SharpSans;
-	font-style: normal;
-	font-weight: 500;
-	src: url(fonts/SharpSans-Medium.woff) format("woff")
-}
-
-@font-face {
-	font-family: SharpSans;
-	font-style: normal;
-	font-weight: 600;
-	src: url(fonts/SharpSans-Semibold.woff) format("woff")
-}
-
-@font-face {
-	font-family: SharpSans;
-	font-style: normal;
-	font-weight: 900;
-	src: url(fonts/SharpSans-Extrabold.woff) format("woff")
-}
-
-@font-face {
-	font-family: MediaSans;
-	font-style: normal;
-	font-weight: 100;
-	src: url(fonts/mediasansweb-light.woff) format("woff")
-}
-
-@font-face {
-	font-family: MediaSans;
-	font-style: normal;
-	font-weight: 400;
-	src: url(fonts/mediasansweb-regular.woff) format("woff")
-}
-
-@font-face {
-	font-family: MediaSans;
-	font-style: normal;
-	font-weight: 500;
-	src: url(fonts/mediasansweb-bold.woff) format("woff")
-}
-
-@font-face {
-	font-family: MediaSans;
-	font-style: normal;
-	font-weight: 600;
-	src: url(fonts/mediasansweb-black.woff) format("woff")
-}
-
-@font-face {
-	font-family: MediaSans;
-	font-style: normal;
-	font-weight: 700;
-	src: url(fonts/mediasansweb-ultra.woff) format("woff")
-}
-
-html {
-	background: 0 0
-}
-
-body {
-	-webkit-font-smoothing: auto
-}
-
-body {
-	color: #edeae4;
-	font-size: 16px;
-	font-family: SharpSans, Helvetica, Arial, sans-serif;
-	font-weight: 300;
-	line-height: 26px;
-	height: 100%;
-	overflow-y: scroll;
-	margin: 0
-}
-
-body {
-	background: #121212
-}
 
 a {
 	text-decoration: none;
@@ -1158,15 +1092,6 @@ p {
 img {
 	vertical-align: middle;
 	border: 0
-}
-
-p {
-	color: #666
-}
-
-html,
-p {
-	font-family: SharpSans, Helvetica, Arial, sans-serif
 }
 
 @supports (padding:max(0px)) {
@@ -1306,7 +1231,50 @@ div[data-test-id=ChatWidgetMobileButton] {
 .bb-slider--arrow-icon:hover {
 	stroke: #fff
 }
+/*tungnt*/
+.sider-product-bg .owl-nav button {
+	position: absolute;
+	top: 50%;
+	background-color: #000;
+	color: #fff;
+	margin: 0;
+	transition: all 0.3s ease-in-out;
+}
+.sider-product-bg .owl-nav button.owl-prev {
+	left: -2rem;
+}
+.sider-product-bg .owl-nav button.owl-next {
+	right: -2rem;
+}
 
+.sider-product-bg .owl-dots {
+	text-align: center;
+	padding-top: 15px;
+}
+.sider-product-bg .owl-dots button.owl-dot {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	background: #ccc;
+	margin: 0 3px;
+}
+.sider-product-bg .owl-dots button.owl-dot.active {
+	background-color: #000;
+}
+.sider-product-bg .owl-dots button.owl-dot:focus {
+	outline: none;
+}
+.sider-product-bg .owl-nav button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.sider-product-bg .owl-nav .fa{
+	color: #fcc818;
+	font-size: 1.7rem;
+}
+/*tungnt*/
 @media (min-width:992px) {
 	.bb-slider {
 		position: relative
@@ -1563,10 +1531,44 @@ div[data-test-id=ChatWidgetMobileButton] {
 	background: rgba(0, 0, 0, .3);
 	height: inherit
 }
-
+.custome_price_down{
+	display: grid;
+}
 .bb-component--centered-sm {
 	margin: auto;
 	text-align: center
+}
+.bb-variant--from {
+	font-size: 12px;
+	text-decoration: line-through;
+	color: #666;
+	height: 13px;
+	min-height: 16px;
+}
+.bb-tags {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bb-tags>div:first-child {
+	margin-top: 10px;
+}
+.bb-tags--deal {
+	background-color: #c93028;
+	text-transform: uppercase;
+}
+.bb-tags>div {
+	text-align: center;
+	min-width: 42px;
+	margin-top: 7px;
+	margin-left: 10px;
+	color: #ffffff;
+}
+.bb-variant--from sup, .bb-variant--to sup {
+	vertical-align: text-top;
+	font-size: .7em;
+	margin-top: 1px;
+	display: inline-block;
 }
 
 @media (max-width:992px) {
@@ -1640,6 +1642,16 @@ div[data-test-id=ChatWidgetMobileButton] {
 	.footer-list {
 		display: inline-block;
 	}
+}
+
+@media  screen and (max-width: 600px){
+	.sider-product-bg .owl-nav button.owl-prev {
+		left: 0;
+	}
+	.sider-product-bg .owl-nav button.owl-next {
+		right: 0;
+	}
+
 }
 @media screen and (max-width: 500px){
 	.m-cate-list_title:before{
