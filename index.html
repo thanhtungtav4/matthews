@@ -13,7 +13,7 @@
     <!-- Bootstrap core CSS -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap&subset=vietnamese" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-touchspin/4.2.5/jquery.bootstrap-touchspin.min.css">
     <link href="lib/swiper/css/swiper.min.css" rel="stylesheet">
     <link rel="stylesheet" href="lib/owlCarousel2/assets/owl.carousel.min.css">
@@ -26,9 +26,11 @@
 </head>
 
 <body class="m-bg-home">
-    <div class='loading'>
-        <div class="spinner"></div>
-    </div>
+    <!--
+   <div class='loading'>
+         <div class="spinner"></div>
+     </div>
+  -->
     <header>
         <div class="m-menu">
             <div class="container">
@@ -39,51 +41,86 @@
                     <a class="navbar-brand" href="#">
                         <img src="images/logo.png">
                     </a>
-
                     <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Wine</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Beer</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Sprits</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">RTD</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Liquer</a>
-                            </li>
-                        </ul>
-                        <form id="search-form" class="form-inline search-form search-container">
-                            <div class="search-box">
-                                <input class="search-input" type="text" placeholder="Search">
-                                <a href="#" class="search-btn">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div>
-
-                        </form>
-
-                        <ul class="navbar-nav m-menu-info">
-                            <!-- <li class="nav-item"><a href=""><i class="fa fa-search"></i></a> | </li> -->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle"></i> login</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                </div>
-                            </li>
-                        </ul>
-
+<!-- ads-->
+                    <div class="ads-top">
+                        <div class="image-ads-box">
+                               <img src="images/ads.png" class="img-fluid">
+                        </div>
+                    </div>
+<!-- !ads-->
+<!-- seach / login destop -->
+                    <div class="top-search">
+                        <form id="search-form" class="form-inline search-form search-container nt-search-form">
+                                                   <div class="search-box">
+                                                       <input class="search-input" type="text" placeholder="Search">
+                                                       <a href="#" class="search-btn">
+                                                           <i class="fa fa-search"></i>
+                                                       </a>
+                                                   </div>
+                                               </form>
+                         <ul class="navbar-nav m-menu-info nt-m-menu-info">
+                                                   <li class="nav-item dropdown">
+                                                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle"></i> login</a>
+                                                       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                           <a class="dropdown-item" href="#">Action</a>
+                                                           <a class="dropdown-item" href="#">Another action</a>
+                                                       </div>
+                                                   </li>
+                                               </ul>
+                    </div>
+<!-- !seach / login destop -->
                     </div>
                 </nav>
+                <div class="menu-nav-update1">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Wine</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Beer</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sprits</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">RTD</a>
+                                </li>
+                                 <li class="nav-item dropdown">
+                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                     Liquer
+                                      </a>
+                                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                           <a class="dropdown-item" href="#">Liquer 1</a>
+                                           <a class="dropdown-item" href="#">Liquer 2</a>
+                                      </div>
+                                 </li>
+                            </ul>
+                            <form id="search-form" class="form-inline search-form search-container">
+                                <div class="search-box">
+                                    <input class="search-input" type="text" placeholder="Search">
+                                    <a href="#" class="search-btn">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </div>
+                            </form>
+                            <ul class="navbar-nav m-menu-info">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle"></i> login</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -96,94 +133,30 @@
                             <div class="swiper-slide">
                                 <div class="m-home-slide">
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <h4 class="m-txt-slide-title">Welcome to</h4>
-                                            <h3 class="m-txt-silde-title">MATTHEWS LIQUOR</h3>
-                                            <p>We boast Australia's fastest growing online selection of wines, spirits and liqueurs added to weekly. If you can't find what you're looking for, call us on 1800 069 295 and we'll try to track it down. </p>
-                                            <hr class="m-hr">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="m-home-slide_img"><img src="images/img-slide.png"></div>
+                                        <div class="col-12">
+                                            <div class="m-home-slide_img"><img src="images/banner3.png"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="m-home-slide">
+                                 <div class="m-home-slide">
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <h4 class="m-txt-slide-title">Welcome to</h4>
-                                            <h3 class="m-txt-silde-title">MATTHEWS LIQUOR</h3>
-                                            <p>We boast Australia's fastest growing online selection of wines, spirits and liqueurs added to weekly. If you can't find what you're looking for, call us on 1800 069 295 and we'll try to track it down. </p>
-                                            <hr class="m-hr">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="m-home-slide_img"><img src="images/img-slide.png"></div>
-                                        </div>
+                                        <div class="col-12">
+                                           <div class="m-home-slide_img"><img src="images/banner2.png"></div>
+                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="m-home-slide">
+                                 </div>
+                             </div>
+                              <div class="swiper-slide">
+                                 <div class="m-home-slide">
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <h4 class="m-txt-slide-title">Welcome to</h4>
-                                            <h3 class="m-txt-silde-title">MATTHEWS LIQUOR</h3>
-                                            <p>We boast Australia's fastest growing online selection of wines, spirits and liqueurs added to weekly. If you can't find what you're looking for, call us on 1800 069 295 and we'll try to track it down. </p>
-                                            <hr class="m-hr">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="m-home-slide_img"><img src="images/img-slide.png"></div>
-                                        </div>
+                                       <div class="col-12">
+                                           <div class="m-home-slide_img"><img src="images/banner1.png"></div>
+                                       </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="m-home-slide">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <h4 class="m-txt-slide-title">Welcome to</h4>
-                                            <h3 class="m-txt-silde-title">MATTHEWS LIQUOR</h3>
-                                            <p>We boast Australia's fastest growing online selection of wines, spirits and liqueurs added to weekly. If you can't find what you're looking for, call us on 1800 069 295 and we'll try to track it down. </p>
-                                            <hr class="m-hr">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="m-home-slide_img"><img src="images/img-slide.png"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="m-home-slide">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <h4 class="m-txt-slide-title">Welcome to</h4>
-                                            <h3 class="m-txt-silde-title">MATTHEWS LIQUOR</h3>
-                                            <p>We boast Australia's fastest growing online selection of wines, spirits and liqueurs added to weekly. If you can't find what you're looking for, call us on 1800 069 295 and we'll try to track it down. </p>
-                                            <hr class="m-hr">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="m-home-slide_img"><img src="images/img-slide.png"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="m-home-slide">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <h4 class="m-txt-slide-title">Welcome to</h4>
-                                            <h3 class="m-txt-silde-title">MATTHEWS LIQUOR</h3>
-                                            <p>We boast Australia's fastest growing online selection of wines, spirits and liqueurs added to weekly. If you can't find what you're looking for, call us on 1800 069 295 and we'll try to track it down. </p>
-                                            <hr class="m-hr">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="m-home-slide_img"><img src="images/img-slide.png"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                  </div>
+                             </div>
                         <!-- Add Pagination -->
                         <div class="swiper-pagination"></div>
                     </div>
@@ -216,13 +189,19 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item1.jpg"></a>
                                                         </div>
-                                                        <!-- <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div> -->
+                                                        <!-- <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div> -->
                                                         <div class="m-slide-like active"><a href=""><i class="fa fa-heart"></i></a></div>
                                                         <div class="m-slide-hot"><img src="images/item-hot.png"></div>
                                                     </div>
 
                                                     <div class="m-home-slide_content">
-                                                        <div class="m-slide-title text-ellipsis lc2"><a href="#">2016 Burn Cottage oonlight Race Pinot Noir Race Pinot Noir Race Pinot Noir Race Pinot Noir</a></div>
+                                                    <div class="text-category-product">
+                                                      <a class="category-text" href="#">Beer</a>
+                                                    </div>
+                                                        <div class="m-slide-title text-ellipsis lc2">
+                                                        <a href="#">2016 Burn Cottage oonlight Race Pinot Noir Race Pinot Noir Race Pinot Noir Race Pinot Noir</a>
+                                                        </div>
+
                                                         <!--customer price -->
                                                         <div class="row nt_row">
                                                             <div class="col-4 mx-auto nt-auto">
@@ -258,10 +237,12 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item2.jpg"></a>
                                                         </div>
-                                                        <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div>
+                                                        <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div>
                                                         <div class="m-slide-hot"><img src="images/item-hot.png"></div>
                                                     </div>
-
+  <div class="text-category-product">
+                                                      <a class="category-text" href="#">Beer</a>
+                                                    </div>
                                                     <div class="m-home-slide_content">
                                                         <div class="m-slide-title text-ellipsis lc2"><a href="#">2016 Burn Cottage oonlight Race Pinot Noir</a></div>
                                                         <!--customer price -->
@@ -299,10 +280,12 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item3.jpg"></a>
                                                         </div>
-                                                        <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div>
+                                                        <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div>
                                                         <!-- <div class="m-slide-hot"><img src="images/item-hot.png"></div> -->
                                                     </div>
-
+  <div class="text-category-product">
+                                                      <a class="category-text" href="#">Beer</a>
+                                                    </div>
                                                     <div class="m-home-slide_content">
                                                         <div class="m-slide-title text-ellipsis lc2"><a href="#">2016 Burn Cottage oonlight Race Pinot Noir</a></div>
                                                         <!--customer price -->
@@ -340,10 +323,12 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item4.jpg"></a>
                                                         </div>
-                                                        <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div>
+                                                        <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div>
                                                         <!-- <div class="m-slide-hot"><img src="images/item-hot.png"></div> -->
                                                     </div>
-
+  <div class="text-category-product">
+                                                      <a class="category-text" href="#">Beer</a>
+                                                    </div>
                                                     <div class="m-home-slide_content">
                                                         <div class="m-slide-title text-ellipsis lc20">
                                                             <a href="#">2016 Burn Cottage oonlight Race Pinot Noir</a>
@@ -392,7 +377,7 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item1.jpg"></a>
                                                         </div>
-                                                        <!-- <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div> -->
+                                                        <!-- <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div> -->
                                                         <div class="m-slide-like active"><a href=""><i class="fa fa-heart"></i></a></div>
                                                         <div class="m-slide-hot"><img src="images/item-hot.png"></div>
                                                     </div>
@@ -434,7 +419,7 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item2.jpg"></a>
                                                         </div>
-                                                        <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div>
+                                                        <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div>
                                                         <div class="m-slide-hot"><img src="images/item-hot.png"></div>
                                                     </div>
 
@@ -475,7 +460,7 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item3.jpg"></a>
                                                         </div>
-                                                        <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div>
+                                                        <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div>
                                                         <!-- <div class="m-slide-hot"><img src="images/item-hot.png"></div> -->
                                                     </div>
 
@@ -516,7 +501,7 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item4.jpg"></a>
                                                         </div>
-                                                        <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div>
+                                                        <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div>
                                                         <!-- <div class="m-slide-hot"><img src="images/item-hot.png"></div> -->
                                                     </div>
 
@@ -568,7 +553,7 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item1.jpg"></a>
                                                         </div>
-                                                        <!-- <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div> -->
+                                                        <!-- <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div> -->
                                                         <div class="m-slide-like active"><a href=""><i class="fa fa-heart"></i></a></div>
                                                         <div class="m-slide-hot"><img src="images/item-hot.png"></div>
                                                     </div>
@@ -610,7 +595,7 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item2.jpg"></a>
                                                         </div>
-                                                        <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div>
+                                                        <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div>
                                                         <div class="m-slide-hot"><img src="images/item-hot.png"></div>
                                                     </div>
 
@@ -651,7 +636,7 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item3.jpg"></a>
                                                         </div>
-                                                        <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div>
+                                                        <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div>
                                                         <!-- <div class="m-slide-hot"><img src="images/item-hot.png"></div> -->
                                                     </div>
 
@@ -692,7 +677,7 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item4.jpg"></a>
                                                         </div>
-                                                        <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div>
+                                                        <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div>
                                                         <!-- <div class="m-slide-hot"><img src="images/item-hot.png"></div> -->
                                                     </div>
 
@@ -744,7 +729,7 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item1.jpg"></a>
                                                         </div>
-                                                        <!-- <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div> -->
+                                                        <!-- <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div> -->
                                                         <div class="m-slide-like active"><a href=""><i class="fa fa-heart"></i></a></div>
                                                         <div class="m-slide-hot"><img src="images/item-hot.png"></div>
                                                     </div>
@@ -786,7 +771,7 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item2.jpg"></a>
                                                         </div>
-                                                        <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div>
+                                                        <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div>
                                                         <div class="m-slide-hot"><img src="images/item-hot.png"></div>
                                                     </div>
 
@@ -827,7 +812,7 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item3.jpg"></a>
                                                         </div>
-                                                        <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div>
+                                                        <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div>
                                                         <!-- <div class="m-slide-hot"><img src="images/item-hot.png"></div> -->
                                                     </div>
 
@@ -868,7 +853,7 @@
                                                         <div class="m-slide-img">
                                                             <a href=""><img src="images/item4.jpg"></a>
                                                         </div>
-                                                        <div class="m-slide-like"><a href=""><i class="fa fa-heart-o"></i></a></div>
+                                                        <div class="m-slide-like"><a href=""><i class="far fa-heart"></i></a></div>
                                                         <!-- <div class="m-slide-hot"><img src="images/item-hot.png"></div> -->
                                                     </div>
 
@@ -971,7 +956,7 @@
                                     <div class="m-popup-product-detail_title">2016 Burn Cottage Moonlight Race Pinot Noir</div>
                                     <div class="m-popup-product-detail_adress">
                                         <div class="m-product-detail-adress-name">Mornington Peninsula, Victoria, AUSTRALIA</div>
-                                        <!-- <div class="m-product-detail-adress-like"><a href=""><i class="fa fa-heart-o"></i></a></div> -->
+                                        <!-- <div class="m-product-detail-adress-like"><a href=""><i class="far fa-heart"></i></a></div> -->
                                         <div class="m-product-detail-adress-like active"><a href=""><i class="fa fa-heart"></i></a></div>
                                     </div>
                                     <div class="m-popup-product-detail_content">
@@ -1002,19 +987,115 @@
             </div>
         </div>
     </div>
-
-    <footer class="footer">
-        <div class="container">
-            <ul class="footer-list">
-                <li><a href="<">Contacts</a></li>
-                <li><a href="">Media Channels</a></li>
-                <li><a href="">Find the neast store</a></li>
-                <li><a href="">Hotline</a></li>
-            </ul>
+ <!-- div update about-->
+     <section class="contact-welcome">
+         <div class="container">
+          <div class="row">
+                       <div class="col-md-6 image-box-footer align-self-center">
+                            <img src="images/450x230.png" class="img-fluid">
+                       </div>
+                       <div class="col-md-6">
+                       <h4 class="text-color-welcome">Welcome to MATTHEWS LIQUOR</h4>
+                          <p class="text-color-nt"> It is a long established fact that a reader will be distracted by the readable
+                                                        content of a page when looking at its layout. The point of using Lorem Ipsum is
+                                                        that it has a more-or-less normal distribution of letters, as opposed to using '
+                                                        Content here, content here', making it look like readable English. Many desktop
+                                                        publishing packages and web page editors now use Lorem Ipsum as their default model text,
+                                                        and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
+                                                        versions have evolved over the years.....</p>
+                           <div class="text-center"><a class="text-color-welcome" href="#">Read more <i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+                         </div>
+                   </div>
         </div>
-
+     </section>
+<!-- div update about-->
+<footer class="footer">
+      <section class="index-link">
+          <div class="container">
+              <div class="row text-left">
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                  <div class="link-area">
+                  <h5 class="tittle_footer">CATEGORY</h5>
+                     <ul class="ul_padding10">
+                        <li><a href="#"> BEER</a></li>
+                         <li><a href="#"> Sparkling & Champagne</a></li>
+                         <li><a href="#"> Spirits</a></li>
+                         <li><a href="#"> Cider</a></li>
+                         <li><a href="#"> Wine</a></li>
+                         <li><a href="#"> LIQUER </a></li>
+                         <li><a href="#"> LIQUER  2</a></li>
+                     </ul>
+                   </div>
+                   </div>
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                  <h5 class="tittle_footer">Help & Services</h5>
+                      <div class="link-area">
+                         <ul class="ul_padding10">
+                          <li><a href="#"> About Us</a></li>
+                          <li><a href="#"> Delivery Info</a></li>
+                          <li><a href="#"> Shipping Info</a></li>
+                          <li><a href="#"> Privacy Policy</a></li>
+                          <li><a href="#"> Terms & Conditions</a></li>
+                          <li><a href="#"> News</a></li>
+                          <li><a href="#"> Contact Us</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-2">
+                  <h5 class="tittle_footer">Shop Wine</h5>
+                      <div class="link-area">
+                         <ul class="ul_padding10">
+                          <li><a href="#"> Chivas</a></li>
+                          <li><a href="#"> Hennessy</a></li>
+                          <li><a href="#"> Moet Chandon</a></li>
+                          <li><a href="#"> ABSOLUT</a></li>
+                          <li><a href="#"> Johnnie Walker</a></li>
+                           <li><a href="#"> Remy Martin</a></li>
+                           <li><a href="#"> Martell</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                  <h5 class="tittle_footer">CONTACT US</h5>
+                      <div class="link-area">
+                          <ul class="box_ul_icon">
+                           <li class="map_localtion"><a href="#"><i class="fas fa-map-marker-alt"></i> 448 Epsom Rd, Flemington VIC 3031</a></li>
+                           <li class="map_localtion"><a href="#"><i class="fas fa-phone"></i> +61 1300 727 575</a></li>
+                          <li class="map_localtion"><a href="#"><i class="fas fa-map-marker-alt"></i> 448 Epsom Rd, Flemington VIC 3031</a></li>
+                           <li class="map_localtion"><a href="#"><i class="fas fa-phone"></i> +61 1300 727 575</a></li>
+                           <li class="map_localtion"><a href="#"><i class="fas fa-map-marker-alt"></i> 448 Epsom Rd, Flemington VIC 3031</a></li>
+                           <li class="map_localtion"><a href="#"><i class="fas fa-phone"></i> +61 1300 727 575</a></li>
+                          </ul>
+                      </div>
+                      <div class="row">
+                           <div class="box_icon ">
+                              <ul class="icon_media_box">
+                                 <li class="facebook"><a href="#" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+                                 <li class="twitter"><a href="#" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+                                 <li class="google"><a href="#" target="_blank"><i class="fab fa-google-plus fa-2x"></i></a></li>
+                                 <li class="mail"><a href="#" target="_blank"><i class="far fa-envelope fa-2x"></i></a></li>
+                              </ul>
+                            </div>
+                       </div>
+                  </div>
+              </div>
+          </div>
+      </section>
     </footer>
+<footer class="page-footer">
+    <footer class="footer">
+    <div class="container">
+        <ul class="footer-list">
+            <li>
+                <a href="https://matthewsliquor.com.au/about-us" title="About">
+                    © Copyright matthewsliquor.com.au 2020
+                </a>
+            </li>
 
+        </ul>
+    </div>
+</footer>
+</footer>
     <!-- Bootstrap core JavaScript
 		================================================== -->
 
@@ -1073,6 +1154,8 @@
 
             var swiper = new Swiper('.swiper-container', {
                 loop: true,
+                nav: true,
+                speed:300,
                 pagination: {
                     el: '.swiper-pagination',
                 },
@@ -1081,7 +1164,7 @@
                     prevEl: '.swiper-button-prev',
                 },
                 autoplay: {
-                    delay: 5000,
+                    delay: 3000,
                 },
             });
 
@@ -1122,6 +1205,23 @@
         })
     </script>
     <script type="text/javascript">
+        function toggleDropdown(e) {
+            const _d = $(e.target).closest('.dropdown'),
+                _m = $('.dropdown-menu', _d);
+            setTimeout(function() {
+                const shouldOpen = e.type !== 'click' && _d.is(':hover');
+                _m.toggleClass('show', shouldOpen);
+                _d.toggleClass('show', shouldOpen);
+                $('[data-toggle="dropdown"]', _d).attr('aria-expanded', shouldOpen);
+            }, e.type === 'mouseleave' ? 300 : 0);
+        }
+
+        $('body')
+            .on('mouseenter mouseleave', '.dropdown', toggleDropdown)
+            .on('click', '.dropdown-menu a', toggleDropdown);
+
+        /* not needed, prevents page reload for SO example on menu link clicked */
+        $('.dropdown a').on('click tap', e => e.preventDefault())
     </script>
 </body>
 
